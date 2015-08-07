@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script src="https://fb.me/react-0.13.3.js"></script>
+        <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    </head>
+    <body>
+        <script type="text/jsx">
+            // Devine a `class`
+            var HelloWorld = React.createClass({
+                render: function(){
+                    return <div>
+                        Hello World!
+                    </div>
+                }
+            });
+
+            //React, please render this class
+            var element = React.createElement(HelloWorld);
+
+            //React
+
+            React.render(element, document.body);
+        </script>
+    </body>
+</html>
